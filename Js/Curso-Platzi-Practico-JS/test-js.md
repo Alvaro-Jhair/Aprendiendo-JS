@@ -65,7 +65,9 @@ las funciones reciben parámetros cuando las creamos. Y les enviamos argumentos 
 
 //parametros(a,b,c);
 ```js
-function nombreCompleto(name, lastName) { return name + ' ' + lastName }
+function nombreCompleto(name, lastName) { 
+    return name + ' ' + lastName 
+}
 
 function saludo(name, lastname, username) {
      const completeName = nombreCompleto(name, lastname);
